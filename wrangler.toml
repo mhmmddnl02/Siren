@@ -3,10 +3,6 @@ main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
 
-[[kv_namespaces]]
-binding = "SIREN"
-id = "9a55c35c54d447929c38b74fa4d5ebca"
-
 [build]
 command = "cargo install worker-build && worker-build --release"
 
@@ -14,6 +10,6 @@ command = "cargo install worker-build && worker-build --release"
 build = { command = "cargo install worker-build && worker-build --dev" }
 
 [vars]
-UUID = "aaaaafff-aaaa-41b6-ae20-48c5ffe233ba"
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/mhmmddnl02/Siren/refs/heads/master/web/index.html"
-SUB_PAGE_URL = "https://raw.githubusercontent.com/mhmmddnl02/Siren/refs/heads/master/web/sub.html"
+UUID = "00000000-0000-0000-0000-000000000000"
+MAIN_PAGE_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Siren/refs/heads/master/web/index.html"
+SUB_PAGE_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Siren/refs/heads/master/web/sub.html"
